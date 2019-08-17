@@ -1,0 +1,65 @@
+{
+    "title": "MacApps 常用软件合集",
+    "description": "MacApps 常用软件合集",
+    "author": "TingFeng",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "readMe.md"
+    },
+    "styles":{
+        "website": "assets/styles/website.css"
+    },
+    "plugins": [
+        "-lunr", "-search", "-sharing","-highlight","-livereload",
+        "search-pro",
+        "splitter",
+        "prism",
+        "prism-themes",
+        "theme-comscore",
+        "anchor-navigation-ex-toc",
+        "expandable-chapters-small",
+        "tbfed-pagefooter",
+        "image-captions"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+           "showLevel": true
+        },
+        "prism": {
+            "css": [
+                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex-toc": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": false,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "expandable-chapters":{},
+        "image-captions": {
+            "caption": "_CAPTION_"
+        }
+    }
+}
